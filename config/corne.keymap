@@ -38,9 +38,9 @@
 
             label = "Lower";
             bindings = <
-&none           &none     &kp UP    &none      &kp LG(E)  &none        &kp N7   &kp N8  &kp N9    &kp LBKT  &kp LC(HOME)  &kp DEL
-&none           &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(D)  &none        &kp N4   &kp N5  &kp N6    &kp FSLH  &kp LC(END)   &kp F10
-&kp LEFT_SHIFT  &none     &none     &none      &none      &none        &kp N1   &kp N2  &kp N3    &kp DOT   &none         &kp F20
+&trans          &trans    &kp UP    &trans     &kp LG(E)  &trans       &kp N7   &kp N8  &kp N9    &kp LBKT  &kp LC(HOME)  &kp DEL
+&trans          &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(D)  &trans       &kp N4   &kp N5  &kp N6    &kp FSLH  &kp LC(END)   &kp F10
+&kp LEFT_SHIFT  &trans    &trans    &trans     &trans     &trans       &kp N1   &kp N2  &kp N3    &kp DOT   &trans        &kp F20
                                     &kp LCTRL  &trans     &kp SPACE    &kp RET  &kp N0  &kp RALT
             >;
         };
@@ -55,8 +55,8 @@
             label = "Raise";
             bindings = <
 &kp GRAVE       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)    &kp LS(N5)    &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp MINUS
-&none           &bt BT_CLR        &bt BT_PRV        &bt BT_NXT  &none         &to 3         &none       &none       &kp RA(N8)  &kp RA(N9)  &kp LBKT    &kp RBKT
-&kp LEFT_SHIFT  &out OUT_TOG      &none             &none       &none         &none         &none       &none       &kp RA(N7)  &kp RA(N0)  &kp FSLH    &kp BSLH
+&trans          &bt BT_CLR        &bt BT_PRV        &bt BT_NXT  &trans        &to 3         &trans      &trans      &kp RA(N8)  &kp RA(N9)  &kp LBKT    &kp RBKT
+&kp LEFT_SHIFT  &out OUT_TOG      &trans            &trans      &trans        &trans        &trans      &trans      &kp RA(N7)  &kp RA(N0)  &kp FSLH    &kp BSLH
                                                     &kp LGUI    &kp LEFT_ALT  &kp SPACE     &kp RET     &trans      &kp RALT
             >;
         };
@@ -64,10 +64,10 @@
         Game {
             label = "Game";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &sl 4
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
-                     &none  &none  &none    &none  &none  &none
+&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &sl 4
+&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &to 0
+                        &trans  &kp LALT  &trans    &trans  &trans  &trans
             >;
         };
 
