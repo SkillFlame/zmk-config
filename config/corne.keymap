@@ -22,7 +22,7 @@
         };
 
         Windows_tab {
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <36 12>;
         };
 
@@ -57,12 +57,12 @@
         };
 
         LessThan {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp GRAVE>;
             key-positions = <25 26>;
         };
 
         GreaterThan {
-            bindings = <&kp LS(BACKSLASH)>;
+            bindings = <&kp LS(GRAVE)>;
             key-positions = <26 27>;
         };
     };
@@ -96,8 +96,8 @@
             label = "Lower";
             bindings = <
 &trans  &trans    &kp UP    &trans     &trans  &trans       &kp N7   &kp N8  &kp N9    &kp LBKT  &kp LC(HOME)  &kp DEL
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans       &kp N4   &kp N5  &kp N6    &kp FSLH  &kp LC(END)   &kp C_VOL_UP
-&trans  &trans    &trans    &trans     &trans  &trans       &kp N1   &kp N2  &kp N3    &kp DOT   &trans        &kp C_VOL_DN
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans       &kp N4   &kp N5  &kp N6    &kp FSLH  &kp LC(END)   &kp C_VOLUME_UP
+&trans  &trans    &trans    &trans     &trans  &trans       &kp N1   &kp N2  &kp N3    &kp DOT   &trans        &kp C_VOLUME_DOWN
                             &trans     &trans  &kp SPACE    &kp RET  &kp N0  &kp RALT
             >;
         };
