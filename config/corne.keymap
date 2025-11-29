@@ -66,6 +66,11 @@
             bindings = <&kp LS(NON_US_BACKSLASH)>;
             key-positions = <26 27>;
         };
+
+        Shift_Delete {
+            bindings = <&kp LS(DEL)>;
+            key-positions = <24 11>;
+        };
     };
 
     keymap {
